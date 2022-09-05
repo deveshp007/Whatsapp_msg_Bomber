@@ -1,7 +1,7 @@
 from selenium import webdriver
 
 # Adding Firefox driver(geckodriver) path 
-driver = webdriver.Firefox(executable_path='/home/devesh/selenium_firefox/drivers/geckodriver')
+driver = webdriver.Firefox(executable_path='geckodriver')
  
 driver.get("https://web.whatsapp.com/")
 
